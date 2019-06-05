@@ -9453,6 +9453,7 @@ interface KeyboardEvent extends UIEvent {
     readonly charCode: number;
     readonly code: string;
     readonly ctrlKey: boolean;
+    readonly isComposing: boolean;
     readonly key: string;
     /** @deprecated */
     readonly keyCode: number;
